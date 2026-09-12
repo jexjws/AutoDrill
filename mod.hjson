@@ -3,7 +3,7 @@ name: "auto-drill"
 author: "Pointifix & jexjws"
 main: "autodrill.AutoDrill"
 description: "AutoDrill 埃里克尔优化版：专为埃里克尔岩壁激光钻机（等离子钻机 / 大型等离子钻机）重构的智能规划算法。支持全向采矿面自动识别、有效开采通量最大化、占地面积与包围盒极小化、背脊贴身单管物流与外部开阔供电母线。原作者: Pointifix"
-version: 1.1
+version: "2.0-erekir"
 minGameVersion: 158
 java: true
 hidden: true
