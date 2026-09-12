@@ -33,6 +33,14 @@ java{
     sourceCompatibility = JavaVersion.VERSION_17
 }
 
+configurations.all {
+    resolutionStrategy.eachDependency { details ->
+        if (details.requested.group == 'com.github.Anuken.Arc') {
+            details.useVersion '0e5679dc9ca75a034f66991380b26d0a2a2b82c7'
+        }
+    }
+}
+
 dependencies{
     implementation 'org.jetbrains:annotations:20.1.0'
     compileOnly "com.github.Anuken.Arc:arc-core:$mindustryVersion"
